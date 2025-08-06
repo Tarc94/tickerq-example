@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+
+# Visual Studio specific
+.vs/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Test results
+TestResults/
+
+# Others
+*.db
+*.sqlite
+*.pdb
+*.cache
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
