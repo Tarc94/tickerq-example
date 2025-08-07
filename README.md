@@ -10,5 +10,5 @@ https - https://localhost:7045/tickerq-dashboard
 
 Findings:
 1. When using 'CancelMissedTickersOnApplicationRestart' within the operational store, this doesn't seem to work as what I expected. Hence, this hasn't been used within the example. <br>
-Expectation: If I restart my application, if the execution time of the job has been passed this should cancel the job.<br>
-Reality: If I restart my application, all queued jobs get cancelled regardless of whether the execution time has elapsed.
+**Expectation**: If I restart my application, if the execution time of the job has been passed this should cancel the job.<br>
+**Reality**: If I restart my application, all queued jobs get cancelled regardless of whether the execution time has elapsed.
